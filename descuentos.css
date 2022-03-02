@@ -1,0 +1,16 @@
+
+header {
+    display: grid;
+    justify-items: center;
+}
+
+section {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-items: center;
+}
