@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: grid;
+    justify-items: center;
+}
+
+section {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+#throwError {
+    display: inline-block;
+    margin: 1px;
+    color: red;
+    font-size: small;
+}
+
+div {
+    display: flex;
+    justify-items: center;
+}
+
+#resultPrice {
+    display: inline-block;
+    margin: 20px;
+    padding: 8px;
+    font-weight: bold;
+}

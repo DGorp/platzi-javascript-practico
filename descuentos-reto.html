@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="descuentos-reto.css">
+    <title>Porcentajes y descuentos - Reto</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes y descuentos - Reto</h1>
+
+        <p>Este es un reto del segundo taller del Curso Práctico de Javascript</p>
+    </header>
+
+    <section>
+        <h2>Área de cupones</h2>
+
+        <form action="get">
+            <label for="priceInput">Escribe el precio total de tus artículos: </label>
+            <br>
+            <input id="priceInput" type="number">
+            <br> <br>
+
+            <label for="discountInput">Escribe tu codigo de descuento: </label>
+            <br>
+            <p id="throwError"></p>
+            <br>
+            <input id="discountInput" type="text" required>
+            <br> <br>
+
+            <button type="button" onclick="agregarCupon()">Agregar cupon a tu compra</button>
+        </form>
+
+        <div id="result">
+            <!-- Etiqueta vacia para un resultado (innerText) -->
+            <p id="resultPrice"></p>
+        </div>
+    </section>
+
+    <script src="descuentos-reto.js"></script>
+</body>
+</html>
