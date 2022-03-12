@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="promedio_moda-mediana.css">
+    <title>Promedio</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Promedio</h1>
+        <p>Este es el tercer taller del Curso Práctico de Javascript - Primera parte</p>
+    </header>
+
+    <section>
+        <form action="">
+
+            <label for="listInput">Introduce tu lista de elementos: </label>
+            <br>
+            <p id="hint">TIP: Uno por uno</p>
+            <input id="listInput" type="number">
+            <br> <br>
+
+            <button type="button" onclick="agregarElemento()">¡Agregar elemento!</button>
+            <br> <br>
+            <hr>
+            <p>Los elementos de tu lista son: </p>
+            <p id="listMessage"></p>
+            <hr>
+            <br>
+
+            <button type="button" onclick="obtenerPromedio()">¡Calcular promedio!</button>
+            <br> <br>
+
+            <hr>
+            <p>El promedio de tu lista es el siguiente: </p>
+            <p id="promMessage"></p>
+            <hr>
+        </form>
+    </section>
+
+    <script src="promedio.js"></script>
+</body>
+</html>

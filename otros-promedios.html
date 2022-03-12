@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="promedio_moda-mediana.css">
+    <title>Otros promedios</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Otros promedios</h1>
+        <p>Este es el reto del Curso Práctico de Javascript</p>
+    </header>
+
+    <section>
+        <form action="">
+
+            <label for="listInput">Introduce tu lista de elementos: </label>
+            <br>
+            <p id="hint">TIP: Uno por uno</p>
+            <input id="listInput" type="number">
+            <br> <br>
+
+            <button type="button" onclick="agregarElemento()">¡Agregar elemento!</button>
+            <br> <br>
+            <hr>
+            <p>Los elementos de tu lista son: </p>
+            <p id="listMessage"></p>
+            <hr>
+            <br>
+
+            <button type="button" onclick="obtenerMediaGeometrica()">¡Calcular media geométrica!</button>
+            <br> <br>
+
+            <hr>
+            <p>La media geométrica de tu lista es la siguiente: </p>
+            <p id="medGeoMessage"></p>
+            <hr> <br>
+
+            <button type="button" onclick="obtenerMediaArmonica()">¡Calcular media armónica!</button>
+            <br> <br>
+
+            <hr>
+            <p>La media armónica de tu lista es la siguiente: </p>
+            <p id="medArmMessage"></p>
+            <hr>
+        </form>
+    </section>
+
+    <script src="otros-promedios.js"></script>
+</body>
+</html>
